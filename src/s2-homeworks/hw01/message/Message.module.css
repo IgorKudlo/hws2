@@ -1,31 +1,58 @@
 .message {
-
+    position: relative;
+    margin-bottom: 47px;
 }
 
 .imageAndText {
-
+    display: flex;
+    align-items: flex-end;
 }
 
 .imageAndText img {
-
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
 }
 
 .text {
-
+    position: relative;
+    padding: 8px 13px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 3px 3px 3px 0;
+    background: #F5F7FB;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
 }
 
 .text:after {
-
+    position: absolute;
+    left: -11px;
+    bottom: -2px;
+    content: '';
+    border: 5px solid transparent;
+    border-right: 5px solid #F5F7FB;
+    border-bottom: 5px solid #F5F7FB;
 }
 
 .name {
-
+    margin-bottom: 4px;
+    font-weight: 600;
 }
 
 .messageText {
-
+    font-weight: 400;
 }
 
 .time {
-
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 48px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
 }
