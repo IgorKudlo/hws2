@@ -24,7 +24,7 @@ export const pureOnBlur = (name: string, setError: Dispatch<SetStateAction<strin
 }
 
 export const pureOnEnter = (e: any, addUser: any) => { // если нажата кнопка Enter - добавить
-    if (e.currentTarget.key === 'Enter') {
+    if (e.key === 'Enter') {
         addUser();
     }
 }
