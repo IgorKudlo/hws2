@@ -12,8 +12,8 @@ export const pureAddUser = (name: string, setError: Dispatch<SetStateAction<stri
     if (!name.trim()) {
         setError('Ошибка! Введите имя!')
     } else {
-        setName(name);
         addUserCallback(name);
+        setName('');
     }
 }
 
